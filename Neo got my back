@@ -6,6 +6,9 @@
 <body>
     <a href="https://open.spotify.com/track/1iGQpclvzonFNzy7Ko89V7?si=550003d18a364d5a">
         <img src="neozone.jpg" alt="Sticker" style="float: inline-end; width: auto; height: auto;">
+        
     </a>
+ <a href="index.html">home</a> <!--link terug naar homepage-->
+
 </body>
 </html>
