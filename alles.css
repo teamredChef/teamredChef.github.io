@@ -16,6 +16,6 @@ ul.topnav li a {
   text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #aabdad;}
+li a :hover> {background-color: #aabdad;}
 
-ul.topnav li a.active {background-color: #04AA6D;}
+li a.active {background-color: #04AA6D;}
