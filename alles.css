@@ -6,9 +6,9 @@ ul.topnav {
   background-color: #333;
 }
 
-ul.topnav li {float: left;}
+  ul.topnav li {float: left;}
 
-ul.topnav li a {
+  ul.topnav li a {
   display: block;
   color: white;
   text-align: center;
@@ -16,6 +16,8 @@ ul.topnav li a {
   text-decoration: none;
 }
 
-li a :hover> {background-color: #aabdad;}
+  li a :hover> {background-color: #aabdad;
+}
 
-li a.active {background-color: #04AA6D;}
+  li a.active {background-color: #04AA6D;
+}
