@@ -6,7 +6,8 @@ ul.topnav {
   background-color: #333;
 }
 
-  ul.topnav li {float: left;}
+  ul.topnav li {float: left;
+}
 
   ul.topnav li a {
   display: block;
