@@ -6,6 +6,23 @@ ul {
   background-color: #333;
 }
 
+li {float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a.active {background-color: #04AA6D;
+}
+
+li a:hover:not(.active) { background-color: black;
+}
+
 .column { /*dit zijn de waarden die worden gegeven aan elk element met class="column"*/
   float:left; /*hiermee wordt het aan de linkerkant van het scherm geplaatst*/
   width: 30%; /*hiermee is de breedte 30% van het scherm*/
@@ -28,21 +45,3 @@ body { /*dit zijn de waarden voor de body*/
   text-align: center; /*hiermee wordt de text in het midden van de footer geplaatst*/
   color: black;
 }
-
-/*Dit is wanneer een deel van een lijst actief aan staat. */
-li a.active { 
-  color: #04AA6D
-}
-/*Dit zegt hoe de punten van de lijst eruit zien */
-li a {
-  display: block; 
-  /*Het is in de vorm van een blokje */
-  color: #fff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none; 
-  /*Met text-decoration kan je een lijn onder/boven/door/om je tekst lopen */
-}
-/*Laat zien wat er gebeurt  als je je muis over dit laat hoveren, zonder te klikken. (niet actief als dit al .active is. */
-li a:hover:not(.active) { 
-  background-color: black;}
