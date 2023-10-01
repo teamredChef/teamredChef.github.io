@@ -20,7 +20,7 @@ li a {
 .active {background-color: #04AA6D;
 }
 
-li a:hover:not(.active) { background-color: black;
+li a:hover { background-color: black;
 }
 
 .column { /*dit zijn de waarden die worden gegeven aan elk element met class="column"*/
