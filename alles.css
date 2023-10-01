@@ -35,3 +35,12 @@ body { /*dit zijn de waarden voor de body*/
   background-color: black; /*dit is de achtergrondkleur van de body*/
   color: greenyellow; /*dit is de tekstkleur van de body*/ 
 }
+.footer { /*dit zijn de waarden die worden gegeven aan elk element met class="footer"*/
+  position: fixed; /*hiermee staat de positie van de footer vast*/
+  left: 0; /*hiermee is de footer zover naar links als mogelijk*/
+  bottom: 0; /*hiermee is de footer zover naar onder als mogelijk*/
+  width: 100%; /*hiermee wordt gezorgd dat de footer de hele breedte van het scherm opneemt*/
+  background-color: greenyellow; /*dit is de achtergrondskleur van de footer*/
+  padding: 10px; /*padding zorgt ervoor dat er een bepaalde hoeveelheid pixels om een text heen zit aan alle 4 de kanten. Het verschil tussen padding en margin is dat bij padding het in het element zit en bij margin erbuiten*/
+  text-align: center; /*hiermee wordt de text in het midden van de footer geplaatst*/
+}
