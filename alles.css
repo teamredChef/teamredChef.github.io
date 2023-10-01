@@ -45,3 +45,10 @@ body { /*dit zijn de waarden voor de body*/
   text-align: center; /*hiermee wordt de text in het midden van de footer geplaatst*/
   color: black;
 }
+.column2 {
+  float:right; /*hiermee wordt het aan de rechterkant van het scherm geplaatst*/
+  width: 30%; /*hiermee is de breedte 30% van het scherm*/
+  padding: 15px; /*padding zorgt ervoor dat er een bepaalde hoeveelheid pixels om een text heen zit aan alle 4 de kanten. Het verschil tussen padding en margin is dat bij padding het in het element zit en bij margin erbuiten*/
+  font-family: Georgia, 'Times New Roman', Times, serif; /*dit geeft de text fonts aan die worden gebruikt*/
+  margin-bottom: 5%;
+}
