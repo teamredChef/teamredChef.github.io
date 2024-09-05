@@ -94,5 +94,8 @@ li.dropdown {
   display: block;
 }
 
+.active { background-color: #04AA6D;
+}
+
 li a:hover:not(.active) { background-color: black;
 }
