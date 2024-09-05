@@ -72,7 +72,7 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: var(--quaternary-color);
+  background-color: black;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -95,5 +95,5 @@ li.dropdown {
 }
 
 .active { /*Dit zijn de waarden die worden gegeven aan elk element met class="active"*/
-  background-image: var(--tertiary-color); /*dit is de achtergrondskleur van de knop met de class "active"*/
+  background-image: #04AA6D; /*dit is de achtergrondskleur van de knop met de class "active"*/
 }
