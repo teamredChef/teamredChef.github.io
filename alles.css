@@ -52,6 +52,9 @@ body { /*dit zijn de waarden voor de body*/
   font-family: Georgia, 'Times New Roman', Times, serif; /*dit geeft de text fonts aan die worden gebruikt*/
   margin-bottom: 5%;
 }
+.img{
+  padding: 15px;
+}
 
 li a, .dropbtn {
   display: inline-block;
