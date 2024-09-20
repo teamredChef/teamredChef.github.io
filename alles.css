@@ -53,7 +53,7 @@ body { /*dit zijn de waarden voor de body*/
   margin-bottom: 5%;
 }
 .img{
-  padding: 15px;
+  padding: 15px; /* dit geeft aan hoeveel ruimte er om een image zit*/
 }
 
 li a, .dropbtn {
@@ -65,7 +65,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: #111;
+  background-color: #111; /*dit geeft aan welke kleur de dropdown menu balk wordt als je erop staat met je muis*/
 }
 
 li.dropdown {
